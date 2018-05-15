@@ -101,8 +101,8 @@ var blackhole = "PROXY " + blackhole_ip_port;
 // bad_da_host_regex == bad domain anchor with host/path type, RegExp matching
 // 
 // 71 rules:
-var good_da_host_JSON = { "apple.com": null,
-"icloud.com": null,
+var good_da_host_JSON = { //"apple.com": null,
+//"icloud.com": null,
 "apple-dns.net": null,
 "swcdn.apple.com": null,
 "init.itunes.apple.com": null,
@@ -235,6 +235,9 @@ var good_da_host_exceptions_exact_flag = 39 > 0 ? true : false;  // test for non
 // 2454 rules:
 var bad_da_host_JSON = { "jobthread.com": null,
 "content.ad": null,
+"icloud.com": null,
+"apple.com": null,
+"*.apple.com": null,
 "nastydollars.com": null,
 "adziff.com": null,
 "ad.doubleclick.net": null,
