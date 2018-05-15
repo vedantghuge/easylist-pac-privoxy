@@ -72,7 +72,7 @@ This is the best option.
 
 Set your network Proxy Auto Configuration setting to:
 
-> `https://raw.githubusercontent.com/essandess/easylist-pac-privoxy/master/proxy.pac`
+> `https://raw.githubusercontent.com/vedantghuge/easylist-pac-privoxy/master/proxyyt.pac`
 
 ***Advantages***
 
