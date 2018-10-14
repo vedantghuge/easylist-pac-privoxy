@@ -242,6 +242,8 @@ var bad_da_host_JSON = { "jobthread.com": null,
 "popads.net": null,
 "googlevideo.com": null,
 "*.googlevideo.com": null,
+"*.epicgames.com": null,
+#
 "epicgames.com": null,
 "youtubei.youtube.com": null,
 "2mdn.net": null,
